@@ -75,15 +75,81 @@
                 <p class="wow fadeInDown">Model extraction attacks pose significant security threats to deployed language models, potentially compromising intellectual property and user privacy. This survey provides a comprehensive taxonomy of LLM-specific extraction attacks and defenses, categorizing attacks into functionality extraction, training data extraction, and prompt security attacks. We analyze various attack methodologies including API-based knowledge distillation, direct querying, parameter recovery, and prompt stealing techniques that exploit transformer architectures. We then examine defense mechanisms organized into model protection, data privacy protection, and prompt security strategies, evaluating their effectiveness across different deployment scenarios. We propose specialized metrics for evaluating both attack effectiveness and defense performance, addressing the specific challenges of generative language models. Through our analysis, we identify critical limitations in current approaches and propose promising research directions, including integrated attack methodologies and adaptive defense mechanisms that balance security with model utility. This work serves NLP researchers, ML engineers, and security professionals seeking to protect language models in production environments.</p>
             </div>
         </div>
-    </section>
 
-    <!-- 以下部分暂时注释掉 -->
-    <!--
-    <section id="services">...</section>
-    <section id="about">...</section>
-    <section id="our-team">...</section>
-    <section id="contact-us">...</section>
-    -->
+<div class="wow fadeInDown">
+<h2>Part 1: Background and Motivation: Model Extraction in the Age of LLMs (30 mins)</h2>
+<ul class="listarrow">
+<li><i class="fa fa-angle-double-right"></i>The rise of proprietary LLMs and the economic stakes behind model protection.</li>
+<li><i class="fa fa-angle-double-right"></i>Recent high-profile controversies (e.g., the DeepSeek incident) and the increasing concern over unauthorized replication of LLMs.</li>
+<li><i class="fa fa-angle-double-right"></i>Motivations behind model extraction attacks: cost reduction, performance cloning, and intellectual property threats.</li>
+<li><i class="fa fa-angle-double-right"></i>Threat model overview: black-box access, API-level interactions, and systemic vulnerabilities in MLaaS.</li>
+</ul>
+</div>
+
+
+<div class="wow fadeInDown">
+<h2>Part 2: Taxonomy of Model Extraction Attacks in LLMs (30 mins)</h2>
+<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa semper aliquam quis mattis quam adipiscing elit. Praesent eget risus vitae massa.</p> -->
+<ul class="listarrow">
+<li><i class="fa fa-angle-double-right"></i>Overview of key extraction objectives: functional replication, training data extraction, and prompt stealing.</li>
+<li><i class="fa fa-angle-double-right"></i>Functional Extraction: techniques for cloning LLM behavior using API queries or distilled models.</li>
+<li><i class="fa fa-angle-double-right"></i>Training Data Extraction: memory leakage and reconstruction of sensitive data (e.g., PII, rare sequences).</li>
+<li><i class="fa fa-angle-double-right"></i>Prompt Inversion and Stealing: threats to proprietary prompts and instructional alignment assets.</li>
+<li><i class="fa fa-angle-double-right"></i>Attack methodology pipeline: from query crafting to surrogate model training.</li>
+</ul>
+</div>
+
+
+<div class="wow fadeInDown">
+<h2>Part 3: Defense Techniques Against Model Extraction (30 mins)</h2>
+<ul class="listarrow">
+<li><i class="fa fa-angle-double-right"></i>Architectural defenses: watermarking, model structure randomization, and attention tampering.</li>
+<li><i class="fa fa-angle-double-right"></i>Output-level protections: GuardEmb, ModelShield, and controlled response perturbation.</li>
+<li><i class="fa fa-angle-double-right"></i>Training-time defenses: data sanitization, selective forgetting, and differential privacy.</li>
+<li><i class="fa fa-angle-double-right"></i>Prompt protection and inference-time monitoring: watermarking prompts and detecting suspicious access patterns.</li>
+</ul>
+</div>
+
+
+<div class="wow fadeInDown">
+<h2>Part 4: Evaluation Metrics and Trade-offs (30 mins)</h2>
+<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa semper aliquam quis mattis quam adipiscing elit. Praesent eget risus vitae massa.</p> -->
+<ul class="listarrow">
+<li><i class="fa fa-angle-double-right"></i>Measuring extraction effectiveness: functional similarity, perplexity divergence, memorization rates.</li>
+<li><i class="fa fa-angle-double-right"></i>Measuring defense robustness: attack prevention rate, watermark persistence, query anomaly detection.</li>
+<li><i class="fa fa-angle-double-right"></i>Utility-security trade-offs: balancing usability and protection in deployed systems.</li>
+<li><i class="fa fa-angle-double-right"></i>Visualization of defense coverage across different attack vectors.</li>
+</ul>
+</div>
+
+
+
+<div class="wow fadeInDown">
+<h2>Part 5: Case Studies and Real-World Scenarios (30 mins)</h2>
+<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa semper aliquam quis mattis quam adipiscing elit. Praesent eget risus vitae massa.</p> -->
+<ul class="listarrow">
+<li><i class="fa fa-angle-double-right"></i>Case study: how a commercial-grade model was cloned with limited API budget.</li>
+<li><i class="fa fa-angle-double-right"></i>Open-source vs. proprietary model exposure risk.</li>
+<li><i class="fa fa-angle-double-right"></i>Lessons from deployed LLM systems (e.g., chatbot APIs, LLM-as-a-service).</li>
+<li><i class="fa fa-angle-double-right"></i>Legal and ethical implications of extraction in industry practice.</li>
+</div>
+
+
+<div class="wow fadeInDown">
+<h2>Part 6: Research Gaps and Future Directions (30 mins)</h2>
+<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa semper aliquam quis mattis quam adipiscing elit. Praesent eget risus vitae massa.</p> -->
+<ul class="listarrow">
+<li><i class="fa fa-angle-double-right"></i>Remaining limitations of current attack and defense techniques.</li>
+<li><i class="fa fa-angle-double-right"></i>Toward integrated, adaptive defenses and theoretical guarantees.</li>
+<li><i class="fa fa-angle-double-right"></i>Challenges in monitoring, watermarking, and architectural redesign.</li>
+<li><i class="fa fa-angle-double-right"></i>Open discussion: how can academia and industry jointly shape responsible LLM deployment?</li>
+</div>
+
+
+</div>
+     </div>
+
+     </section>
 
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script> 
