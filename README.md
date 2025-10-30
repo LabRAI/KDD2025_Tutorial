@@ -8,9 +8,12 @@ The tutorial provides an accessible and comprehensive overview of [insert tutori
 
 ## 🌐 Tutorial Website
 
-🔗 **Live Website:** [https://labrai.github.io/KDD2025_Tutorial/](https://labrai.github.io/KDD2025_Tutorial/)  
+🔗 **Live Website:** [https://labrai.github.io/KDD2025_Tutorial/](https://labrai.github.io/KDD2025_Tutorial/)
+
 📅 **Conference:** SIGKDD 2025 
+
 ⌚️ **Time**: Sunday, August 3, 01:00 PM - 04:00 PM (ET). 
+
 📍 **Location:** Room xxx, Metro Toronto Convention Centre, Toronto, Canada. 
 
 
