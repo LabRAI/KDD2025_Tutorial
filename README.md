@@ -1,7 +1,7 @@
 # KDD 2025 Tutorial: 
 ## Model Extraction Attack and Defense for Large Language Models: Recent Advances, Challenges, and Future Prospectives
   
-🥹 Welcome to the official tutorial page for our KDD 2025 Tutorial on **Model Extraction Attacks and Defenses for Large Language Models (LLMs)**, presented at the **ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD 2025)**. This repository contains the static website source code that was presented during the tutorial session. It is intended to serve not only as a reference for attendees but also as a **template** for future tutorials, workshops, and academic event websites. For any questions or suggestions about this webpage template, please contact [ll24bb@fsu.edu](mailto:ll24bb@fsu.edu).
+🥹 Welcome to the official tutorial page for our KDD 2025 Tutorial on **Model Extraction Attacks and Defenses for Large Language Models (LLMs)**, presented at the **ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD 2025)**. This repository contains the static website source code that was presented during the tutorial session. It is intended to serve not only as a reference for attendees but also as a **template** for future tutorials, workshops, and academic event websites. For any questions or suggestions about this webpage template, please contact [Lincan Li](mailto:ll24bb@fsu.edu).
 
 ---
 
@@ -120,7 +120,7 @@ We welcome improvements to this Template (typo fixes, translation, accessibility
 ## 📬 Contact
 
 For questions or feedback about this Template, please contact:
-📧 [[Lincan Li](ll24bb@fsu.edu)] or open an issue in this repository.
+📧 [[Lincan Li](mailto:ll24bb@fsu.edu)] or open an issue in this repository.
 
 
 ---
