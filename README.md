@@ -1,7 +1,7 @@
 # KDD 2025 Tutorial: 
 ## Model Extraction Attack and Defense for Large Language Models: Recent Advances, Challenges, and Future Prospectives
   
-🥹 Welcome to the official tutorial page for our KDD 2025 Tutorial on **Model Extraction Attacks and Defenses for Large Language Models (LLMs)**, presented at the **ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD 2025)**. This repository contains the static website source code that was presented during the tutorial session. It is intended to serve not only as a reference for attendees but also as a **template** for future tutorials, workshops, and academic event websites.
+🥹 Welcome to the official tutorial page for our KDD 2025 Tutorial on **Model Extraction Attacks and Defenses for Large Language Models (LLMs)**, presented at the **ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD 2025)**. This repository contains the static website source code that was presented during the tutorial session. It is intended to serve not only as a reference for attendees but also as a **template** for future tutorials, workshops, and academic event websites. For any questions or suggestions about this webpage template, please contact [Lincan Li](ll24bb@fsu.edu).
 
 ---
 
@@ -94,12 +94,12 @@ Easily deploy your tutorial website to:
 If you use or reference this tutorial related resource in your research, please kindly cite:
 
 ```bibtex
-@inproceedings{yourlastname2025kddtutorial,
-  title={KDD 2025 Tutorial: [Tutorial Title]},
-  author={[Your Names]},
-  booktitle={Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD '25)},
-  year={2025},
-  organization={ACM}
+@inproceedings{zhao2025survey,
+  title={A survey on model extraction attacks and defenses for large language models},
+  author={Zhao, Kaixiang and Li, Lincan and Ding, Kaize and Gong, Neil Zhenqiang and Zhao, Yue and Dong, Yushun},
+  booktitle={Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining V. 2},
+  pages={6227--6236},
+  year={2025}
 }
 ```
 
